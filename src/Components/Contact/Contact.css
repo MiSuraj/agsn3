@@ -1,0 +1,31 @@
+#About{
+    color:red;
+    
+}
+#us{
+color: var(--dltx);
+}
+.aboutUs{
+    text-align: center;
+    margin-top:80px;
+    font-size: 50px;
+}
+.who{
+    text-align: center;
+    font-size: 20px;
+}
+.apar{
+    display: flex;
+}
+.aleft{
+   width:50%;
+   height: 3px;
+   background: black;
+   margin-left: 100px;
+}
+.aright{
+    width: 50%;
+    height:3px;
+    background: black;
+    margin-right: 100px;
+}

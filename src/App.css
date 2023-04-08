@@ -1,0 +1,54 @@
+:root{
+    --dlbg:white;
+    --dlbg2:whitesmoke;
+    --dltx:black;
+    --dltx2: #6e6e6e;
+    --dred:darkred;
+    --red:red;
+    --lightred: #fb2f2f;
+   
+   
+ }
+ /*  
+ #ccc light gray
+ 
+ 
+ */
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+ 
+   
+}
+
+
+
+
+ .button{
+    border-radius: 34px;
+    border:none;
+    color:white;
+    font-size: 16px; 
+    padding: 11px 26px 11px 26px ;
+    background:linear-gradient(180deg,#fd0f0f 26.71%, #fb2f2f 99.36%);
+
+  }
+    
+  .button:hover{
+    background: white;
+    cursor:pointer;
+    color: var(--lightred);
+    border: 1px solid var(--lightred);
+  
+  }
+  .dlbutton{
+   
+    position: fixed;
+    top: 28px;
+    left: 66pc;
+    z-index: 999;
+  }
+  
+    

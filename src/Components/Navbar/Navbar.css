@@ -1,0 +1,206 @@
+
+.navbar{
+    position:fixed;
+    width:100%;
+    padding:20px 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition:0.5s ease;
+    display: flex;
+    z-index: 999;
+   
+
+}
+.active{
+    background:var(--dlbg2);
+    position:fixed;
+    width:100%;
+    padding:13px 0;
+    border-bottom:thin solid var(--dlbg);
+    transition:0.5s ease;
+    display: flex;
+    z-index: 999;
+    
+   
+}
+
+.left{
+    background-color: transparent;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: red;
+    width: 100%;
+    font-size:30px;
+    font-weight:700 ;
+    font-family: inherit;
+}
+.right{
+    display: flex;
+    background-color: transparent;
+    width: 100%;
+  
+}
+.ul{
+    display: flex;
+    gap:2rem;
+    width: 100%;
+    margin-right: 4rem;
+    list-style-type: none;
+    background-color: transparent;
+    margin-top: 23px;
+    
+}
+.ul li{
+    background-color: transparent;
+    color: white;
+    font-size: 17px;
+    font-family: inherit !important;
+}
+
+.ul>li:hover{
+    cursor: pointer;
+    color:#fc351f
+
+}
+
+.uls{
+    display: flex;
+    gap:2rem;
+    margin-right: 4rem;
+    list-style-type: none;
+    background-color: transparent;
+    margin-top: 15px;
+
+}
+.uls li{
+    background-color: transparent;
+    color: var(--dltx);
+    font-size: 17px;
+    font-family: inherit;
+}
+.uls>li:hover{
+    cursor: pointer;
+    color:#fc351f
+
+}
+.n-button{
+    width: 100%;
+}
+
+
+
+.fa-bars{
+    display: none;
+}
+.fa-close{
+display: none;
+}
+.mright{
+    display: none;
+}
+
+
+
+@media (max-width: 900px) {
+
+
+  
+.navbar{
+    position:fixed;
+    width:100%;
+    padding:20px 0;
+    background:var(--dlbg2);
+    transition:0.5s ease;
+    display: flex;
+   
+    transition:0.5s ease;
+    z-index: 999;
+
+
+
+
+}
+.active{
+    background:var(--dlbg2);
+    position:fixed;
+  
+ 
+
+    width:100%;
+    padding:13px 0;
+    border-bottom:thin solid var(--dlbg);
+
+    transition:0.5s ease;
+    display: flex;
+    z-index: 999;
+
+    
+   
+
+
+}
+.right{
+    display: none;
+}
+.mright{
+    display:block;
+    margin-top: 55px;
+    text-align: center;
+    margin-right:100px ; 
+    
+    background-color: transparent;
+ 
+    transition: all 0.6s linear;
+
+}
+
+.mul{
+ display: none;
+}
+.muls{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    list-style-type: none;
+    color: var(--dltx);
+    gap: 30px;
+    background-color: transparent;
+   
+
+
+  
+
+}
+
+.muls li{
+    background-color: transparent;
+    color: var(--dltx);
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.muls>li:hover{
+    cursor: pointer;
+    color:#fc351f
+
+}
+
+
+.fa-bars{
+    display: block;
+    width:70px;
+
+
+   
+    color:var(--dltx) ;
+   
+}
+.fa-close{
+    display: block;
+    width:70px;
+    
+color:var(--dltx);
+}
+
+
+}
+
